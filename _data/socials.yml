@@ -1,16 +1,6 @@
+# https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/example_pdf.pdf
+email: quangdungnguyen@gmail.com 
+facebook_id: quangdung.name
 github_username: quangdungai
 linkedin_username: quangdung.nguyen
-facebook_id: quangdung.name
-email: quangdungnguyen@gmail.com
-cv_pdf: /assets/pdf/example_pdf.pdf
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-  # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-  # email: quangdungnguyen@gmail.com # your email address
-  # # inspirehep_id: 1010907 # Inspire HEP author ID
-  # # rss_icon: true # comment this line to hide the RSS icon
-  # # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-  # facebook_id: quangdung.name # your Facebook username or ID
-  # github_username: quangdungai # your GitHub username
-  # linkedin_username: quangdung.nguyen # your LinkedIn username
