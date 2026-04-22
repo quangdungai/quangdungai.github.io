@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='cv'>AI Researcher & Engineer</a>. Focus on Machine Learning, Computer Vision, and real-world AI systems
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>quangdungnguyen.name@gmail.com</p>
     <p>175 Tay Son, Kim Lien</p>
     <p>Hanoi, Vietnam</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm **Quang Dung Nguyen**, a passionate researcher in the field of Artificial Intelligence. I have a strong background in machine learning, deep learning, and natural language processing. My research interests include developing novel algorithms for AI, exploring the ethical implications of AI, and applying AI techniques to solve real-world problems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have published several papers in top-tier conferences and journals, and I am always eager to collaborate with other researchers and practitioners in the AI community. In addition to my research, I enjoy teaching and mentoring students, as well as sharing my knowledge through blog posts and public talks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to explore my website to learn more about my work, publications, and projects. If you have any questions or would like to get in touch, please don't hesitate to contact me via email or through my social media channels. Thank you for visiting!
