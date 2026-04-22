@@ -78,21 +78,21 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+# google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+# cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+# pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+# openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# google_site_verification: # your google-site-verification ID (Google Search Console)
+# bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
 blog_name: Quang Dung Blog # blog_name will be displayed in your blog page
-blog_description: AI Engineer & Backend Developer - Projects, Notes, and Learning Journey
+blog_description: AI Researcher & Backend Developer - Projects, Notes, and Learning Journey
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -107,7 +107,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 # giscus:
-#   repo:  # <your-github-user-name>/<your-github-repo-name>
+#   repo: # <your-github-user-name>/<your-github-repo-name>
 #   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
 #   category: Comments # name of the category under which discussions will be created
 #   category_id: # leave empty or specify your category_id (see https://giscus.app/)
@@ -128,7 +128,7 @@ related_blog_posts:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources: []
+# external_sources: []
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
   #   categories: [external-posts]
@@ -155,13 +155,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
-    output: true
+    output: false
   projects:
     output: true
   teachings:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -271,8 +271,8 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # books:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -282,10 +282,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nguyen]
+  first_name: [Quang, Dung]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
@@ -409,7 +409,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
